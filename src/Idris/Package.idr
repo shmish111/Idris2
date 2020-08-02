@@ -102,6 +102,7 @@ initPkgDesc pname
                 Nothing Nothing Nothing Nothing Nothing Nothing Nothing Nothing
                 Nothing Nothing Nothing Nothing
 
+public export                
 data DescField : Type where
   PVersion     : FC -> String -> DescField
   PAuthors     : FC -> String -> DescField
