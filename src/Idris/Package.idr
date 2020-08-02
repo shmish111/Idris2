@@ -189,8 +189,10 @@ parsePkgDesc fname
          fields <- many (field fname)
          pure (name, fields)
 
+export
 data ParsedMods : Type where
 
+export
 data MainMod : Type where
 
 addField : {auto c : Ref Ctxt Defs} ->
